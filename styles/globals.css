@@ -1,0 +1,143 @@
+html,
+body {
+  overflow-x: hidden;
+  font-size: 14px;
+  line-height: 1.5rem;
+  margin: 0;
+  padding: 0;
+  color: rgb(88, 87, 87);
+  font-family: Roboto,Heebo,Helvetica,Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px 0 50px 100px;
+  color: white;
+  background-color: rgb(209, 129, 115);
+}
+
+.header__circle {
+  border-radius: 50%;
+  margin-right: 100px;
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  text-align: center;
+}
+
+.header__circle-text {
+  display: block;
+  color: rgb(33, 33, 70);
+  text-transform: uppercase;
+  margin: 40% auto;
+}
+
+.header__title {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.header__btn {
+  margin-right: 20px;
+  padding: 12px 18px;
+  background-color: tomato;
+  color: white;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+
+  transition-duration: 0.3s;
+}
+
+.header__btn:hover {
+  border-color: white;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+
+.profile__image {
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.profile__text {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 18px 1px #A8A8A8;
+
+}
+
+.profile__title {
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+}
+
+.profile__link {
+  color: #FB5034;
+}
+
+.navigation__list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.navigation__item {
+  cursor: pointer;
+  margin-right: 15px;
+  padding-bottom: 10px;
+}
+
+.navigation__item:hover {
+  color: #FB5034;
+  border-bottom: 2px solid #FB5034;
+
+}
+
+.active-link {
+  color: #FB5034;
+}
+
+.nav__list {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.nav__link {
+  display: inline-block;
+  padding: 12px 14px;
+
+  transition-duration: 0.3s;
+}
+
+.nav__link:hover {
+  color: #FB5034;
+}
